@@ -4,7 +4,6 @@ The pipelines for counting TA sites from TnSeq (Transposon sequencing) data for 
 
 ---
 
-\input{"tnseq_illm/README.md"}
+[tnseq_illm](tnseq_illm/README.md)
 
-\input{"tnseq_ont/README.md"}
-
+[tnseq_ont](tnseq_ont/README.md)
