@@ -24,6 +24,12 @@ out.bam.TA_site.signal.uniq.bdg
 
 ---
 
+!!!include(tnseq_ont/README.md)!!!
+
+:[tnseq_ont/README.md]
+
+---
+
 ## [tnseq_ont](https://gitlab.com/piroonj/ncatras_pipeline/-/tree/master/tnseq_ont)
 
 Count number of transposon insertion from Nanopore reads.
