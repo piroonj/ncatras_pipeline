@@ -17,4 +17,3 @@ python extCrisprTnseq.py $fq $ref $alnbname.paf $alnbname.read_map_ref.group.gen
 sort -k1,1 -k6,6 -k2,2n -k3,3n $outBedf | bedtools groupby -g 1,6,2,3 -c 1 -o count | awk 'BEGIN{OFS="\t"}{print $1,$3,$4,$2$5}' > $(basename $outBedf .bed).bdg
 
 sort -k1,1 -k2,2 $outBedf | bedtools groupby -g 1,2,3 -c 4 -o count | sort -k4,4nr > $(basename $outBedf .bed).uniq.bdg
-xs
