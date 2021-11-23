@@ -4,7 +4,7 @@ The pipelines for counting TA sites from TnSeq (Transposon sequencing) data for 
 
 ---
 
-## [tnseq_illm](https://gitlab.com/piroonj/ncatras_pipeline/-/tree/master/tnseq_illm)
+## [tnseq_illm](https://github.com/piroonj/ncatras_pipeline/-/tree/master/tnseq_illm)
 Count number of transposon insertions from Illumina reads.
 
 #### Data pre-procession
@@ -24,7 +24,7 @@ out.bam.TA_site.signal.uniq.bdg
 
 ---
 
-## [tnseq_ont](https://gitlab.com/piroonj/ncatras_pipeline/-/tree/master/tnseq_ont)
+## [tnseq_ont](https://github.com/piroonj/ncatras_pipeline/-/tree/master/tnseq_ont)
 
 Count number of transposon insertion from Nanopore reads.
 
